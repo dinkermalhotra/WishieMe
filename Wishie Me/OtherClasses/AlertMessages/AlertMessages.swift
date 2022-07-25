@@ -1,0 +1,26 @@
+import Foundation
+
+struct AlertMessages {
+    static let ALL_FIELDS_MANDATORY                 = "All fields are mandatory"
+    static let BLOCK_USER                           = "Are you sure you want to block?"
+    static let CANCEL_REQUEST                       = "Are you sure you want to cancel?"
+    static let CHOOSE_LABEL                         = "Please select a label"
+    static let CUSTOM_REMINDER                      = "Custom Reminder will only work once you add a reminder to it"
+    static let DELETE_BIRTHDAY                      = "Are you sure you want to delete?"
+    static let DELETE_COMMENT                       = "Are you sure you want to delete this comment?"
+    static let DELETE_LABEL                         = "Are you sure you want to delete?"
+    static let EMPTY_LABEL                          = "Are you sure you want to empty this label?"
+    static let EMAIL_NOT_VALID                      = "Email is not valid"
+    static let INCORRECT_DATA_FORMAT                = "The data could not be parsed because it in not in correct format"
+    static let LABEL_NAME_EXIST                     = "Label name already exists"
+    static let LOGOUT                               = "Are you sure you want to logout?"
+    static let MOBLIE_NUMBER_NOT_VALID              = "Mobile number is not valid"
+    static let NO_INTERNET                          = "No Internet Connection"
+    static let REMOVE_PHOTO                         = "Are you sure you want to remove?"
+    static let RESET_REMINDERS                      = "This will reset reminders in all the labels to their default settings."
+    static let SELECT_FRIEND                        = "Select a friend to share video"
+    static let UNBLOCK_USER                         = "Are you sure you want to unblock?"
+    static let UNFRIEND_USER                        = "You will also be removed from their well wishers."
+    static let VALID_PHONE_NUMBER                   = "Please enter a valid phone number."
+    static let PHONE_NUMBER_NOT_REGISTERED          = "Phone number is not registered."
+}
